@@ -21,7 +21,7 @@ add_shortcode('radio-rasclat-meta', 'getLiveMeta');
 add_shortcode('radio-rasclat-schedule', 'getSchedule');
 
 function getLiveMeta() {
-    $endpoint = 'https://api.radio-rasclat.com/meta/schedule';
+    $endpoint = 'https://api.radio-rasclat.com/meta/shows/current';
     $session = curl_init($endpoint);
     curl_setopt($session, CURLOPT_RETURNTRANSFER, true);
     $data = curl_exec($session);
