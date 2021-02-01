@@ -1,5 +1,15 @@
 <?php
 
+/**
+ * Plugin Name: Radio Rasclat Schedule / Live
+ * Plugin URI: https://radio-rasclat.com
+ * Description: Display Radio Rasclat schedule and live meta data.
+ * Version: 0.1
+ * Text Domain: radio-rasclat-wp
+ * Author: Domenik Toefflinger
+ * Author URI: https://dmnktoe.de
+ */
+
 // construct the query with our api url
 $endpoint = 'https://api.radio-rasclat.com/meta/schedule';
 
