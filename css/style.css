@@ -1,3 +1,10 @@
+/* Live Component */
+
+#rasclatLiveMeta {
+    position: relative;
+    display: block;
+}
+
 /* Schedule Component */
 
 #rasclatSchedule {
@@ -7,61 +14,61 @@
 
 /* Schedule > List */
 
-.schedule__list {
+#rasclatSchedule .schedule__list {
     position: relative;
     display: block;
 }
 
 /* Schedule > List > Day */
 
-.schedule__list__day {
+#rasclatSchedule .schedule__list__day {
     padding: 1rem 0;
 }
 
-.schedule__list__day:last-child {
+#rasclatSchedule .schedule__list__day:last-child {
     margin-bottom: 0;
     padding-bottom: 0;
 }
 
 /* Schedule > List > Day > Headline */
 
-.schedule__list__day__headline {
+#rasclatSchedule .schedule__list__day__headline {
     text-align: left;
 }
 
 /* Schedule > List > Day > Entries */
 
-.schedule__list__day__entries {
+#rasclatSchedule .schedule__list__day__entries {
     position: relative;
 }
 
 /* Schedule > List > Day > Entry */
 
-.schedule__list__day__entry {
+#rasclatSchedule .schedule__list__day__entry {
     display: flex;
     align-items: flex-start;
     padding: 2rem 0 2rem;
     border-bottom: 1px solid #150dff;
 }
 
-.schedule__list__day__entry:last-child {
+#rasclatSchedule .schedule__list__day__entry:last-child {
     border-bottom: none;
 }
 
 /* Schedule > List > Day > Entry > Image */
 
-.schedule__list__day__entry__image {
+#rasclatSchedule .schedule__list__day__entry__image {
     margin-right: 2rem;
 }
 
-.schedule__list__day__entry__image img {
+#rasclatSchedule .schedule__list__day__entry__image img {
     width: 70px;
     height: 70px;
 }
 
 /* Schedule > List > Day > Entry > Meta */
 
-.schedule__list__day__entry__info__time {
+#rasclatSchedule .schedule__list__day__entry__info__time {
     font-weight: bold;
     opacity: 0.6;
 }
