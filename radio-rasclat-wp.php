@@ -31,6 +31,15 @@ function getLiveMeta() {
 
     if ($liveMeta === 'null') {
         echo 'Radio Rasclat OFF-AIR.';
+    } else {
+        echo '<div id="rasclatLiveMeta">';
+        echo '<div class="liveMeta__name">';
+        echo $liveMeta['name'];
+        echo '</div>';
+        echo '<div class="liveMeta__time">';
+        echo date("G:i", strtotime($liveMeta['starts'])) . ' - ' . date("G:i", strtotime($liveMeta['ends']));
+        echo '</div>';
+        echo '</div>';
     }
 }
 
