@@ -21,8 +21,8 @@ function initializeAssets() {
 add_action('wp_enqueue_scripts', 'initializeAssets');
 
 // register shortcodes
-add_shortcode('radio-rasclat-wp', 'getSchedule');
-add_shortcode('radio-rasclat-wp', 'getLiveMeta');
+add_shortcode('radio-rasclat-schedule', 'getSchedule');
+add_shortcode('radio-rasclat-meta', 'getLiveMeta');
 
 function getSchedule() {
     $endpoint = $GLOBALS['apiUrl'] . 'schedule';
